@@ -10,16 +10,17 @@ const SponsorAndPartner=()=>{
     return(
         <>
         <Container fluid className='mt-5 bg-success text-white'>
+            <Container>
             <Row className='py-5'>
                 <Col className='display-6 text-start'>
                     <FaMedal className='me-4' />
                     I nostri partner sono:
                 </Col>
             </Row>     
+            </Container>
         </Container>
+
         <Container fluid className=''>
-
-
             <Row className='py-3 bg-white'>
                 <Carousel variant='dark'>           
                     <Carousel.Item interval={3000}>
@@ -33,7 +34,6 @@ const SponsorAndPartner=()=>{
                     </Carousel.Item>
                 </Carousel> 
             </Row> 
-
         </Container>
         </>
     )
