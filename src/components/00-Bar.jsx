@@ -10,11 +10,11 @@ const Bar=()=>{
                     <Navbar.Brand href="#home"><span className='display-1'>Logo</span></Navbar.Brand>
                     <Nav className=''>
                     <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Eventi</Nav.Link>
-                    <Nav.Link href="#pricing">Donazioni</Nav.Link>
-                    <Nav.Link href="#pricing">Partner</Nav.Link>
-                    <Nav.Link href="#pricing">Contatti</Nav.Link>
-                    <Nav.Link href="#pricing" className='text-danger'>Registrati</Nav.Link>
+                    <Nav.Link href="#eventi">Eventi</Nav.Link>
+                    <Nav.Link href="#donazioni">Donazioni</Nav.Link>
+                    <Nav.Link href="#partner">Partner</Nav.Link>
+                    <Nav.Link href="#contatti">Contatti</Nav.Link>
+                    <Nav.Link href="#registrati" className='text-danger'>Registrati</Nav.Link>
                     </Nav>
                 </Container>
         </Navbar>
