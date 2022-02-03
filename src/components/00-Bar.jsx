@@ -1,7 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
 
 
-
 const Bar=()=>{
 
     return(
