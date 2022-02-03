@@ -13,9 +13,8 @@ const Bar=()=>{
                     <Nav.Link href="#features">Eventi</Nav.Link>
                     <Nav.Link href="#pricing">Donazioni</Nav.Link>
                     <Nav.Link href="#pricing">Partner</Nav.Link>
-                    <Nav.Link href="#pricing">FAQ</Nav.Link>
-                    <Nav.Link href="#pricing">FAQ</Nav.Link>
                     <Nav.Link href="#pricing">Contatti</Nav.Link>
+                    <Nav.Link href="#pricing" className='text-danger'>Registrati</Nav.Link>
                     </Nav>
                 </Container>
         </Navbar>
