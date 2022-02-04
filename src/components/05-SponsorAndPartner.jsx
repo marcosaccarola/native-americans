@@ -14,7 +14,7 @@ const SponsorAndPartner=()=>{
             <Row className='py-5'>
                 <Col className='display-6 text-start'>
                     <FaMedal className='me-4' />
-                    I nostri partner sono:
+                    I nostri partner
                 </Col>
             </Row>     
             </Container>
