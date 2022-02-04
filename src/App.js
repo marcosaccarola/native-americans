@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './style/style.scss'
 import Bar from './components/00-Bar';
-import Register from './components/01-Register';
+import Cover from './components/01-Cover';
 import MainEvent from './components/02-MainEvent';
 import Support from './components/03-Support';
 import SecondaryEvent from './components/04-SecondaryEvent';
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Bar />
-      <Register />
+      <Cover />
       <MainEvent />
       <Support />
       <SecondaryEvent />

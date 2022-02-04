@@ -2,7 +2,7 @@ import { Container, Image } from "react-bootstrap"
 import photo from '../assets/header-lg.jpg'
 
 
-const Register=()=>{
+const Cover=()=>{
 
     return(
         <>
@@ -13,4 +13,4 @@ const Register=()=>{
     )
 }
 
-export default Register
+export default Cover
