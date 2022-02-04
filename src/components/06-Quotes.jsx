@@ -8,8 +8,8 @@ const Quotes=()=>{
     return(
         <>
         <Container fluid className='py-5 text-start bg-success text-white'>
-            <Container className='py-3'>
-                <Row className='pt-5'>
+            <Container className=''>
+                <Row className=''>
                     <Col md={8} className='d-flex my-auto'>                        
                         <figure>
                         <blockquote class="blockquote">
@@ -21,7 +21,7 @@ const Quotes=()=>{
                         </figure>
                     </Col>
                     <Col md={4} className=''>
-                        <Image src={photo0} className='img-fluid rounded-circle img-thumbnail mb-3' />
+                        <Image src={photo0} className='img-fluid rounded-circle img-thumbnail' />
                     </Col>
                 </Row>
             </Container>

@@ -18,17 +18,17 @@ const People=()=>{
                 </Col>
             </Row> 
             <Row className='pt-5'>
-                <Col md={4} className=''>
+                <Col md={4} className='mb-3'>
                     <Image src={presidente} width={200} className='rounded-circle img-fluid mb-3'/>
                     <h6>Presidente</h6>
                     <p className='text-muted'>Nome e cognome</p>
                 </Col>
-                <Col md={4} className=''>
+                <Col md={4} className='mb-3'>
                     <Image src={vicepresidente} width={200} className='rounded-circle img-fluid mb-3'/>
                     <h6>Vicepresidente</h6>
                     <p className='text-muted'>Nome e cognome</p>
                 </Col>
-                <Col md={4} className=''>
+                <Col md={4} className='mb-3'>
                     <Image src={segretario} width={200} className='rounded-circle img-fluid mb-3'/>
                     <h6>Segretario</h6>
                     <p className='text-muted'>Nome e cognome</p>

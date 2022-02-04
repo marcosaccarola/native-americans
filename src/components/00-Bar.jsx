@@ -5,9 +5,9 @@ const Bar=()=>{
 
     return(
         <>
-        <Navbar bg="dark" variant="dark" className=''>
+        <Navbar bg="dark" variant="dark" className='' sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home"><span className='display-3'>Logo</span></Navbar.Brand>
+                    <Navbar.Brand href="#home"><span className='display-5'>Logo</span></Navbar.Brand>
                     <Nav className=''>
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#eventi">Eventi</Nav.Link>
