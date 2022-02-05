@@ -9,7 +9,7 @@ const SponsorAndPartner=()=>{
     
     return(
         <>
-        <Container fluid className='mt-5 bg-black text-white'>
+        <Container fluid className='mt-5 bg-dark text-white'>
             <Container>
             <Row className='py-5'>
                 <Col className='display-6 text-start'>
