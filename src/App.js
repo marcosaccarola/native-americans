@@ -30,8 +30,8 @@ function App() {
       <RegisterAgain />
       <Faq />
       <Contacts />
-      <News />
-      <GoogleMap />
+      {/* <News /> */}
+      {/* <GoogleMap /> */}
       <Footer />
     </div>
   );
