@@ -1,14 +1,20 @@
 import { Col, Container, Image, Row } from "react-bootstrap"
 import photo0 from '../assets/indie.jpg'
-import {GiBarracksTent} from 'react-icons/gi'
+import {BsChatQuoteFill} from 'react-icons/bs'
 
 
 const Quotes=()=>{
 
     return(
         <>
-        <Container fluid className='py-5 text-start bg-success text-white'>
+        <Container fluid className='text-start bg-success text-white pb-5'>
             <Container className=''>
+                <Row className='py-5'>
+                    <Col className='display-6 text-start'>
+                        <BsChatQuoteFill className='me-4' />
+                        La citazione del giorno
+                    </Col>
+                </Row>
                 <Row className=''>
                     <Col md={8} className='d-flex my-auto'>                        
                         <figure>
