@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Row } from "react-bootstrap"
+import { Button, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {GiBarracksTent} from 'react-icons/gi'
 import photo0 from '../assets/mainEvent0.jpg'
 import photo1 from '../assets/mainEvent1.jpg'
@@ -18,11 +18,22 @@ const SecondaryEvent=()=>{
             <Row className='pt-5'>
                 <Col md={8} className='justify pb-3'>
                     <p>
-                    Qui c'è un'altra attività che facciamo durante l'anno.
-                    Questa è meno importante della precedente oppure è un'attività continuativa, per esempio un'esposizione di foto oppure una piccola biblioteca.
+                    Questa è un'altra attività dell'associazione, oppure un evento.
                     </p>
                     <p>
-                    Ci sono due bottoni perché se l'utente ha letto fin a qui allora magari potrebbe essergli venuta voglia di mettersi in contatto con noi.
+                    In questo esempio di layout ogni sezione è fatta da: titolo, testo, bottone e immagini.
+                    Sono gli strumenti minimi, ma è possibile aggiungerne altri.
+                    </p>
+                    <p>
+                    Qui ci sono due bottoni perché se l'utente ha letto fin a qui allora magari ha voglia di scriverci.
+                    </p>
+                    <p>
+                    <Placeholder xs={12} />
+                    <Placeholder xs={12} />
+                    <Placeholder xs={4} />
+                    </p>
+                    <p>
+                    <Placeholder xs={2} />
                     </p>
                     <Button variant="dark my-3 me-3">Informazioni</Button>
                     <Button variant="dark my-3">Scrivici</Button>

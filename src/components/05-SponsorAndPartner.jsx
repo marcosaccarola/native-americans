@@ -23,23 +23,26 @@ const SponsorAndPartner=()=>{
                     <Image src={photo1} className='img-fluid rounded mb-5' />
                 </Col>
                 <Col md={8} className='justify pb-3'>
-                    <p>
-                    <Placeholder xs={6} size='lg' className='bg-secondary' />
-                    </p>
-                    <p>
-                    <Placeholder xs={12} />
-                    <Placeholder xs={12} />
-                    <Placeholder xs={4} />
-                    </p>
-                    <p>
-                    <Placeholder xs={12} />
-                    <Placeholder xs={12} />
-                    <Placeholder xs={10} />
-                    </p>
-                    <p>
-                    <Placeholder xs={2} />
-                    </p>
-                    <Button variant="success my-4 d-flex mx-auto">Informazioni</Button>
+                        <p>
+                        <Placeholder xs={6} size='lg' className='bg-secondary' />
+                        </p>
+                        <p>
+                        Se provi a stringere lo schermo, scoprirai che le immagini su cellulare appaiono prima oppure dopo il testo, mentre su computer appaiono ai lati.
+                        </p>
+                        <p>
+                        <Placeholder xs={12} />
+                        <Placeholder xs={12} />
+                        <Placeholder xs={4} />
+                        </p>
+                        <p>
+                        <Placeholder xs={12} />
+                        <Placeholder xs={12} />
+                        <Placeholder xs={10} />
+                        </p>
+                        <p>
+                        <Placeholder xs={2} />
+                        </p>
+                        <Button variant="success my-3 mx-auto">Informazioni</Button>
                 </Col>
             </Row>     
             </Container>

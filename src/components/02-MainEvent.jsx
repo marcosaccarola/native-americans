@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Row } from "react-bootstrap"
+import { Button, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {ImStarFull} from 'react-icons/im'
 import photo0 from '../assets/mainEvent0.jpg'
 import photo1 from '../assets/mainEvent1.jpg'
@@ -19,17 +19,22 @@ const MainEvent=()=>{
             <Row className='pt-5'>
                 <Col md={8} className='justify pb-3'>
                     <p>
-                    Il modo migliore per spiegare all'utente chi siamo è farlo attraverso delle attività.
-                    Qui indicheremo l'evento principale dell'anno.
-                    Se non abbiamo nessun evento in programma allora qui indicheremo un progetto,
-                    una cosa che facciamo insieme e che è il motivo principale per il quale l'associazione esiste.
+                    Ciao sono Marco e questa è un <a href=''>esempio di layout</a>. I colori, i testi, le foto, i font, è meglio vederli con calma.
                     </p>
                     <p>
-                    A destra ci mettiamo anche due foto, che però nella versione per telefono cellulare le ho messe subito sotto a questo testo.
+                    La prima cosa che ci interessa è il layout: in che modo sono disposte le sezioni e cosa contengono.
                     </p>
                     <p>
-                    Metto anche un bottone che invita l'utente a fare qualcosa, perché è importante che l'utente faccia cose,
-                    quando entra nel nostro sito.
+                    Questa prima sezione potrebbe contenere l'attività principale dell'associazione, per mostrare subito di cosa vi state occupando.
+                    </p>
+                    <p>
+                    <Placeholder xs={12} />
+                    <Placeholder xs={12} />
+                    <Placeholder xs={10} />
+                    </p>
+                    <p>
+                    <Placeholder xs={12} />
+                    <Placeholder xs={7} />
                     </p>
                     <Button variant="dark my-3">Informazioni</Button>
                 </Col>

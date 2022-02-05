@@ -34,6 +34,9 @@ const People=()=>{
                     <p className='text-muted'>Nome e cognome</p>
                 </Col>
             </Row>
+            <Row>
+                <p className=''>Qui ho usato delle foto divertenti a puro scopo dimostrativo :)</p>
+            </Row>
         </Container>
         </>
     )
