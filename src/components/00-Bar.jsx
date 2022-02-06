@@ -11,7 +11,7 @@ const Bar=()=>{
                     <Nav className=''>
                     <Nav.Link href="#eventi">Eventi</Nav.Link>
                     <Nav.Link href="#donazioni">Donazioni</Nav.Link>
-                    <Nav.Link href="#accedi" className='text-primary'>Accedi</Nav.Link>
+                    <Nav.Link href='#accedi' className='text-primary'>Accedi</Nav.Link>
                     {/* <Nav.Link href="#registrati" className='text-danger'>Registrati</Nav.Link> */}
                     </Nav>
                 </Container>

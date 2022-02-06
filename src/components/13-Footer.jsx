@@ -28,15 +28,9 @@ const Footer=()=>{
                 <p>
                 <Placeholder xs={2} />
                 </p>
-                <p>
-                <Placeholder xs={4} className='d-flex ms-auto' />
-                </p>
-                <p>
-                <Placeholder xs={2} className='d-flex ms-auto' />
-                </p>
             </Container>
         </Container>
-        <Container fluid className='bg-dark text-white d-flex align-items-end'>
+        <Container fluid className='bg-dark text-white d-flex align-items-end fixed-bottom'>
             <Container className='d-flex w-75 mx-auto justify-content-end px-0 py-3'>
                 <MdAlternateEmail className='me-3' size={25} onClick={()=>window.open('mailto:marco.saccarola.dev@gmail.com')} />
                 <BsLinkedin className='me-3' size={25} onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola/')} />

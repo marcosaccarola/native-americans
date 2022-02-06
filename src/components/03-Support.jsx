@@ -7,7 +7,7 @@ const Support=()=>{
 
     return(
         <>
-        <Container fluid className='mt-5 bg-danger text-white'>
+        <Container fluid className='mt-5 bg-danger text-white' id='donazioni'>
         <Container>
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>

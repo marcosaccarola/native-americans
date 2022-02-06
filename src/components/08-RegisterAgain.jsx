@@ -6,7 +6,7 @@ const RegisterAgain = () => {
 
     return (
         <>
-            <Container fluid className='mt-5 pb-5 bg-register text-white'>
+            <Container fluid className='mt-5 pb-5 bg-register text-white' id='accedi'>
                 <Container>
                     <Row className='py-5'>
                         <Col className='display-6 text-start'>
@@ -20,7 +20,7 @@ const RegisterAgain = () => {
                             <p>La sicurezza dei tuoi dati sarà garantita da Google e non dovrai ricordare nessuna password!</p>
                             <Button className="bg-black border border-white text-white w-100">Accedi con Google</Button>
                             <p className='mt-5 mb-4'>Accedi con la tua email.</p>
-                            <p>Puoi accedere indicando la tua email e una password valida.</p>
+                            {/* <p>Puoi accedere indicando la tua email e una password valida.</p> */}
                             <Button className="bg-black border border-white text-white w-100">Accedi con Email</Button>
                         </Col>
                     </Row>

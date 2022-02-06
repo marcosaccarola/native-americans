@@ -24,9 +24,6 @@ const SponsorAndPartner=()=>{
                 </Col>
                 <Col md={8} className='justify pb-3'>
                         <p>
-                        <Placeholder xs={6} size='lg' className='bg-secondary' />
-                        </p>
-                        <p>
                         Se provi a stringere lo schermo, scoprirai che le immagini su cellulare appaiono prima oppure dopo il testo, mentre su computer appaiono ai lati.
                         </p>
                         <p>

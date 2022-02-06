@@ -10,7 +10,7 @@ const Faq=()=>{
         <Container>
 
 
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="">
             <Accordion.Item eventKey="0">
                 <Accordion.Header className=''>Dove trovo il calendario delle attività?</Accordion.Header>
                 <Accordion.Body className='w-75 mx-auto justify'>

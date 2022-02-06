@@ -1,3 +1,5 @@
+$blue: #0c7386;
+
 .justify {
   text-align: justify;
 }
@@ -12,11 +14,11 @@
   height: 50vh;
 }
 .bg-danger {
-  background-color: #0c7386 !important;
-  border-color: #0c7386;
+  background-color: $blue !important;
+  border-color: $blue;
 }
 .text-blue {
-  color: #0c7386 !important;
+  color: $blue !important;
 }
 .img-partner {
   width: 300px;

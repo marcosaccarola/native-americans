@@ -9,7 +9,7 @@ const MainEvent=()=>{
 
     return(
         <>
-        <Container className='text-blue'>
+        <Container className='text-blue' id='eventi'>
         <Container>
 
             <Row className='pt-5'>
