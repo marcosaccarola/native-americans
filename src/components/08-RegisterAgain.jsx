@@ -15,7 +15,7 @@ const RegisterAgain = () => {
                         </Col>
                     </Row>
                     <Row className='pt-3'>
-                        <Col md={12} className='justify pb-3 w-50 mx-auto'>
+                        <Col md={6} className='justify pb-3 mx-auto'>
                             <p className='mb-4'>Accedi con Google, è facile!</p>
                             <p>La sicurezza dei tuoi dati sarà garantita da Google e non dovrai ricordare nessuna password!</p>
                             <Button className="bg-black border border-white text-white w-100">Accedi con Google</Button>

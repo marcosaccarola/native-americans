@@ -11,6 +11,8 @@ const People=()=>{
     return(
         <>
         <Container className='text-blue'>
+        <Container>
+
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <ImProfile className='me-4' />
@@ -37,6 +39,7 @@ const People=()=>{
             <Row>
                 <p className=''>Qui ho usato delle foto divertenti a puro scopo dimostrativo :)</p>
             </Row>
+        </Container>
         </Container>
         </>
     )

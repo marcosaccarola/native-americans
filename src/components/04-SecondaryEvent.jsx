@@ -9,6 +9,8 @@ const SecondaryEvent=()=>{
     return(
         <>
         <Container className='text-blue'>
+        <Container>
+
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <GiBarracksTent className='me-4' />
@@ -43,6 +45,7 @@ const SecondaryEvent=()=>{
                     <Image src={photo1} className='img-fluid rounded' />
                 </Col>
             </Row>           
+        </Container>
         </Container>
         </>
     )

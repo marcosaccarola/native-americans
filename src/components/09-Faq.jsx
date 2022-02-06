@@ -7,6 +7,8 @@ const Faq=()=>{
     return(
         <>
         <Container className='my-5 mx-auto'>
+        <Container>
+
 
         <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
@@ -82,6 +84,7 @@ const Faq=()=>{
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
+        </Container>
         </Container>
         </>
     )

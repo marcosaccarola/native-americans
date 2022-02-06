@@ -10,6 +10,8 @@ const News=()=>{
     return(
         <>
         <Container className='mt-5 text-blue'>
+        <Container>
+
             <Row className='mb-5'>
                 <Col className='display-6 text-start'>
                     <ImNewspaper className='me-4' />
@@ -54,6 +56,7 @@ const News=()=>{
                     </Card>
                 </Col>
             </Row>
+        </Container>
         </Container>
         </>
     )
