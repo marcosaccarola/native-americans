@@ -10,16 +10,12 @@ const Quotes=()=>{
         <Container fluid className='mt-5 text-start bg-danger text-white pb-5'>
             <Container className=''>
                 <Row className='pt-5'>
-                    <Col md={8} className='d-flex row'>                        
-                        <Row className='pb-5'>
-                            <Col className='display-6 text-start'>
-                                <BsChatQuoteFill className='me-4' />
-                                La citazione del giorno
-                            </Col>
-                        </Row>
-                        <Row>
+                    <Col md={8} className='d-flex flex-column justify-content-between' >                        
 
-                        <figure>
+                        
+                        <p className='display-6'><BsChatQuoteFill className='me-4 text-white' />La citazione del giorno</p>
+
+                        <figure className=''>
                         <blockquote class="blockquote">
                             <p>La terra non appartiene all’uomo, è l’uomo che appartiene alla terra.</p>
                         </blockquote>
@@ -27,7 +23,9 @@ const Quotes=()=>{
                         Capriolo Zoppo, capo della tribù dei <cite title="Source Title">Dwamish</cite>
                         </figcaption>
                         </figure>
-                        </Row>
+
+                        <div></div>
+
                     </Col>
                     <Col md={4} className=''>
                         <Image src={photo0} className='img-fluid rounded-circle img-thumbnail' />

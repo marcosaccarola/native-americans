@@ -13,7 +13,7 @@ const Faq=()=>{
         <Accordion defaultActiveKey="">
             <Accordion.Item eventKey="0">
                 <Accordion.Header className=''>Dove trovo il calendario delle attività?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -25,7 +25,7 @@ const Faq=()=>{
             </Accordion.Item>
             <Accordion.Item eventKey="1">
                 <Accordion.Header>Per partecipare devo essere socia/o?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto  text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -37,7 +37,7 @@ const Faq=()=>{
             </Accordion.Item>
             <Accordion.Item eventKey="2">
                 <Accordion.Header>Quali vantaggi offre la tessera associativa?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto  text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -49,7 +49,7 @@ const Faq=()=>{
             </Accordion.Item>
             <Accordion.Item eventKey="3">
                 <Accordion.Header>Posso partecipare liberamente alle riunioni dell'associazione?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto  text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -61,7 +61,7 @@ const Faq=()=>{
             </Accordion.Item>
             <Accordion.Item eventKey="4">
                 <Accordion.Header>Dove trovo lo statuto dell'associazione?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto  text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -73,7 +73,7 @@ const Faq=()=>{
             </Accordion.Item>
             <Accordion.Item eventKey="5">
                 <Accordion.Header>...?</Accordion.Header>
-                <Accordion.Body className='w-75 mx-auto justify'>
+                <Accordion.Body className='w-75 mx-auto  text-secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
