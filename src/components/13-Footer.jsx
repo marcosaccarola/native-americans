@@ -8,8 +8,8 @@ const Footer=()=>{
 
     return(
         <>
-        <Container fluid className='min-vh-25 bg-dark text-white text-start pt-5'>
-            <Container className='py-3'>
+        <Container fluid className='min-vh-50 bg-light text-muted text-start pt-5'>
+            <Container className='py-3 mt-5'>
                 <p>
                 <Placeholder xs={4} />
                 </p>
@@ -18,6 +18,21 @@ const Footer=()=>{
                 </p>
                 <p>
                 <Placeholder xs={2} />
+                </p>
+                <p>
+                <Placeholder xs={4} />
+                </p>
+                <p>
+                <Placeholder xs={7} />
+                </p>
+                <p>
+                <Placeholder xs={2} />
+                </p>
+                <p>
+                <Placeholder xs={4} className='d-flex ms-auto' />
+                </p>
+                <p>
+                <Placeholder xs={2} className='d-flex ms-auto' />
                 </p>
             </Container>
         </Container>

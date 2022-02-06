@@ -7,7 +7,7 @@ const Quotes=()=>{
 
     return(
         <>
-        <Container fluid className='text-start bg-danger text-white pb-5'>
+        <Container fluid className='mt-5 text-start bg-danger text-white pb-5'>
             <Container className=''>
                 <Row className='pt-5'>
                     <Col md={8} className='d-flex row'>                        

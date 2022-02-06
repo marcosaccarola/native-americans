@@ -30,7 +30,7 @@ const Support=()=>{
                     <Placeholder xs={12} />
                     <Placeholder xs={10} />
                     </p>
-                    <Button variant="success my-3">Sostienici</Button>
+                    <Button variant="light text-blue my-3">Sostienici</Button>
                 </Col>
             </Row>  
         </Container>

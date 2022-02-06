@@ -24,8 +24,8 @@ function App() {
       <MainEvent />
       <Support />
       <SecondaryEvent />
-      <SponsorAndPartner />
       <Quotes />
+      <SponsorAndPartner />
       <People />
       <RegisterAgain />
       <Faq />

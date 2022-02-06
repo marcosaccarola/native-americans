@@ -9,7 +9,7 @@ const MainEvent=()=>{
 
     return(
         <>
-        <Container className=''>
+        <Container className='text-blue'>
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <ImStarFull className='me-4' />
@@ -36,7 +36,7 @@ const MainEvent=()=>{
                     <Placeholder xs={12} />
                     <Placeholder xs={7} />
                     </p>
-                    <Button variant="dark my-3">Informazioni</Button>
+                    <Button variant="danger bg-danger my-3">Informazioni</Button>
                 </Col>
                 <Col md={4}>
                     <Image src={photo0} className='img-fluid rounded mb-3' />

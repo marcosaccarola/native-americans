@@ -27,7 +27,7 @@ const Contacts=()=>{
                     <p>
                     Premi il tasto verde qui sotto per inviare una email immediata.
                     </p>
-                    <Button variant="success my-3">Scrivi</Button>
+                    <Button variant="light text-blue my-3">Scrivici</Button>
                 </Col>
             </Row>  
         </Container>

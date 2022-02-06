@@ -8,7 +8,7 @@ const SecondaryEvent=()=>{
 
     return(
         <>
-        <Container className=''>
+        <Container className='text-blue'>
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <GiBarracksTent className='me-4' />
@@ -35,8 +35,8 @@ const SecondaryEvent=()=>{
                     <p>
                     <Placeholder xs={2} />
                     </p>
-                    <Button variant="dark my-3 me-3">Informazioni</Button>
-                    <Button variant="dark my-3">Scrivici</Button>
+                    <Button variant="dark bg-danger my-3 me-3">Informazioni</Button>
+                    <Button variant="dark bg-danger my-3">Scrivici</Button>
                 </Col>
                 <Col md={4}>
                     <Image src={photo0} className='img-fluid rounded mb-3' />
