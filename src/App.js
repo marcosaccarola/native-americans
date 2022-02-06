@@ -25,12 +25,12 @@ function App() {
       <Support />
       <SecondaryEvent />
       <Quotes />
+      <News />
       <SponsorAndPartner />
       <People />
       <RegisterAgain />
       <Faq />
       <Contacts />
-      {/* <News /> */}
       {/* <GoogleMap /> */}
       <Footer />
     </div>
