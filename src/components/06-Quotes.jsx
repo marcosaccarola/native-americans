@@ -13,7 +13,7 @@ const Quotes=()=>{
                     <Col md={8} className='d-flex flex-column justify-content-between' >                        
 
                         
-                        <p className='display-6'><BsChatQuoteFill className='me-4 text-white' />La citazione del giorno</p>
+                        <span className='display-6'><BsChatQuoteFill className='me-4 text-white' />La citazione del giorno</span>
 
                         <figure className=''>
                         <blockquote class="blockquote">

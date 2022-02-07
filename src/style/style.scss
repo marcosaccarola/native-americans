@@ -5,7 +5,7 @@ $blue: #0c7386;
 }
 
 p {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .justify {
@@ -27,6 +27,12 @@ p {
 }
 .text-blue {
   color: $blue !important;
+}
+.text-yellow {
+  color: #fec179;
+}
+.bg-yellow {
+  background-color: #fec179;
 }
 .img-partner {
   width: 300px;
