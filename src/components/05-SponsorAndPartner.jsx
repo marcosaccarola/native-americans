@@ -44,36 +44,6 @@ const SponsorAndPartner=()=>{
             </Row>     
             </Container>
         </Container>
-
-        {/*<Container fluid className=''>
-            <Row className='py-3'>
-                 <Carousel variant='dark'>           
-                    <Carousel.Item interval={3000}>
-
-                    </Carousel.Item>
-                    <Carousel.Item interval={3000}>      
-
-                    </Carousel.Item>
-                     <Carousel.Item interval={3000}>
-                            <Image src={photo0} width={115} className='img-fluid rounded mx-5 my-3' />
-                            <Image src={photo2} width={125}className='img-fluid rounded' />
-                            <Image src={photo0} width={115} className='img-fluid rounded mx-5 my-3' />
-                            <Image src={photo2} width={125}className='img-fluid rounded' />
-                            <Image src={photo0} width={115} className='img-fluid rounded mx-5 my-3' />
-                            <Image src={photo2} width={125}className='img-fluid rounded' />
-                            {/* <Image src={photo2} height={300} width={411} className='img-fluid rounded' />
-                    </Carousel.Item>
-                    <Carousel.Item interval={3000}>      
-                            <Image src={photo2} width={125} className='mx-5 my-3 img-fluid rounded' />
-                            <Image src={photo0} width={115} className='img-fluid rounded' />
-                            <Image src={photo2} width={125} className='mx-5 my-3 img-fluid rounded' />
-                            <Image src={photo0} width={115} className='img-fluid rounded' />
-                            <Image src={photo2} width={125} className='mx-5 my-3 img-fluid rounded' />
-                            <Image src={photo0} width={115} className='img-fluid rounded' />
-                    </Carousel.Item> 
-                </Carousel> 
-            </Row> 
-        </Container>*/}
         </>
     )
 }

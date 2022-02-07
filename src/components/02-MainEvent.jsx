@@ -10,7 +10,6 @@ const MainEvent=()=>{
     return(
         <>
         <Container className='text-blue' id='eventi'>
-        <Container>
 
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
@@ -45,7 +44,7 @@ const MainEvent=()=>{
                     <Image src={photo1} className='img-fluid rounded' />
                 </Col>
             </Row>           
-        </Container>
+
         </Container>
         </>
     )

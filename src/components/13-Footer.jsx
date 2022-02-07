@@ -3,7 +3,6 @@ import {MdAlternateEmail} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
 
 
-
 const Footer=()=>{
 
     return(

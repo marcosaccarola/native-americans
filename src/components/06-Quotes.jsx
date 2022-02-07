@@ -11,7 +11,6 @@ const Quotes=()=>{
             <Container className=''>
                 <Row className='pt-5'>
                     <Col md={8} className='d-flex flex-column justify-content-between' >                        
-
                         
                         <span className='display-6 mb-5'><BsChatQuoteFill className='me-4 text-white' />La citazione del giorno</span>
 

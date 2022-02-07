@@ -5,13 +5,11 @@ import photo2 from '../assets/02.jpg'
 import {ImNewspaper} from 'react-icons/im'
 
 
-
 const News=()=>{
 
     return(
         <>
         <Container className='mt-5 text-blue'>
-        <Container>
 
             <Row className='mb-5'>
                 <Col className='display-6 text-start'>
@@ -57,7 +55,7 @@ const News=()=>{
                     </Card>
                 </Col>
             </Row>
-        </Container>
+
         </Container>
         </>
     )
