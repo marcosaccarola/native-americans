@@ -16,7 +16,7 @@ const Contacts=()=>{
                 </Col>
             </Row>           
             <Row className='py-5'>
-                <Col md={4} md={{order:'first'}} xs={{order:'last'}}>
+                <Col md={4}>
                     <Image src={photo0} className='img-fluid rounded mb-3' />
                 </Col>
                 <Col md={8} className='justify pb-3'>
