@@ -1,6 +1,7 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap"
-import photo0 from '../assets/mainEvent0.jpg'
-import photo1 from '../assets/mainEvent1.jpg'
+import photo0 from '../assets/04cut.jpg'
+import photo1 from '../assets/mainEvent0.jpg'
+import photo2 from '../assets/02.jpg'
 import {ImNewspaper} from 'react-icons/im'
 
 
@@ -33,7 +34,7 @@ const News=()=>{
                 </Col>
                 <Col md={4}>
                     <Card style={{ width: '18rem', height:'24rem' }} className='my-3 mx-auto'>
-                        <Card.Img variant="top" src={photo0} />
+                        <Card.Img variant="top" src={photo1} />
                         <Card.Body>
                             <Card.Title>Donazioni</Card.Title>
                             <Card.Text>
@@ -45,7 +46,7 @@ const News=()=>{
                 </Col>
                 <Col md={4}>
                     <Card style={{ width: '18rem', height:'24rem' }} className='my-3 mx-auto'>
-                        <Card.Img variant="top" src={photo0} />
+                        <Card.Img variant="top" src={photo2} />
                         <Card.Body>
                             <Card.Title>Bilancio</Card.Title>
                             <Card.Text>

@@ -1,7 +1,7 @@
 import { Button, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {ImStarFull} from 'react-icons/im'
-import photo0 from '../assets/mainEvent0.jpg'
-import photo1 from '../assets/mainEvent1.jpg'
+import photo0 from '../assets/01.jpg'
+import photo1 from '../assets/03.jpg'
 
 
 
@@ -15,7 +15,7 @@ const MainEvent=()=>{
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <ImStarFull className='me-4' />
-                    Questa è la prossima attività:
+                    Questa è la prossima attività
                 </Col>
             </Row>           
             <Row className='pt-5'>

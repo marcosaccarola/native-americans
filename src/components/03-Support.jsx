@@ -12,7 +12,7 @@ const Support=()=>{
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <RiHandCoinLine className='me-4' />
-                    Abbiamo bisogno del tuo supporto.
+                    Abbiamo bisogno del tuo supporto
                 </Col>
             </Row>           
             <Row className='py-5'>

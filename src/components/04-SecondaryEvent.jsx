@@ -1,7 +1,7 @@
 import { Button, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {GiBarracksTent} from 'react-icons/gi'
-import photo0 from '../assets/mainEvent0.jpg'
-import photo1 from '../assets/mainEvent1.jpg'
+import photo0 from '../assets/00.jpg'
+import photo1 from '../assets/06.jpg'
 
 
 const SecondaryEvent=()=>{
@@ -14,7 +14,7 @@ const SecondaryEvent=()=>{
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <GiBarracksTent className='me-4' />
-                    Vieni a visitare il nostro tipì!
+                    Rendi omaggio al nostro totem
                 </Col>
             </Row>           
             <Row className='pt-5'>

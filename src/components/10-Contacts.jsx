@@ -1,6 +1,6 @@
 import { Button, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {IoMdMail} from 'react-icons/io'
-import photo0 from '../assets/mainEvent0.jpg'
+import photo0 from '../assets/07.jpg'
 
 
 const Contacts=()=>{
@@ -12,7 +12,7 @@ const Contacts=()=>{
             <Row className='pt-5'>
                 <Col className='display-6 text-start'>
                     <IoMdMail className='me-4' />
-                    Facci sapere la tua opinione.
+                    Facci sapere la tua opinione
                 </Col>
             </Row>           
             <Row className='py-5'>
