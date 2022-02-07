@@ -18,7 +18,7 @@ import Footer from './components/13-Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App body">
       <Bar />
       <Cover />
       <MainEvent />
