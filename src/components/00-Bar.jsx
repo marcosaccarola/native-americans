@@ -6,10 +6,6 @@ const Bar=()=>{
     document.addEventListener("DOMContentLoaded", function(){
 
         const el_autohide = document.querySelector('.autohide');
-        
-        // add padding-top to bady (if necessary)
-        // const navbar_height = document.querySelector('.navbar').offsetHeight;
-        // document.body.style.paddingTop = navbar_height + 'px';
       
         if(el_autohide){
           var last_scroll_top = 0;
@@ -25,10 +21,7 @@ const Bar=()=>{
                 }
                 last_scroll_top = scroll_top;
           }); 
-          // window.addEventListener
-        }
-        // if
-      
+        }      
       }); 
     
 

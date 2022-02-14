@@ -1,7 +1,6 @@
 import { Button, Carousel, Col, Container, Image, Placeholder, Row } from "react-bootstrap"
 import {FaMedal} from 'react-icons/fa'
 import photo0 from '../assets/Martellago-Stemma.png'
-// import photo1 from '../assets/leon.png'
 import photo1 from '../assets/emblema.png'
 
 
@@ -19,7 +18,6 @@ const SponsorAndPartner=()=>{
             </Row>
             <Row className='pt-3'>
                 <Col md={4}>
-                    {/* <Image src={photo0} className='img-fluid rounded mb-3' /> */}
                     <Image src={photo1} className='img-fluid rounded mb-5 img-partner' />
                 </Col>
                 <Col md={8} className='justify pb-3'>

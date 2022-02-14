@@ -13,7 +13,6 @@ import RegisterAgain from './components/08-RegisterAgain';
 import Faq from './components/09-Faq';
 import Contacts from './components/10-Contacts';
 import News from './components/11-News';
-import GoogleMap from './components/12-GoogleMap';
 import Footer from './components/13-Footer';
 
 function App() {
@@ -31,7 +30,6 @@ function App() {
       <RegisterAgain />
       <Faq />
       <Contacts />
-      {/* <GoogleMap /> */}
       <Footer />
     </div>
   );
